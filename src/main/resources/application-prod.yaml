@@ -1,0 +1,4 @@
+my-config:
+  my-env: prod-env
+  my-app: prod-app
+  my-list: prod1,prod2,prod3

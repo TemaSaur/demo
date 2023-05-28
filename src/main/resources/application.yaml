@@ -1,0 +1,13 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  application:
+    name: name
+  profiles:
+    active: test
+
+
+my-config:
+  my-env: ${MY_ENV_VAR:default}
+  my-app: ${MY_APP_VAR:demo}
+  my-list: a, b, c

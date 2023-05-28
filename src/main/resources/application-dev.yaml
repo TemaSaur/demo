@@ -1,0 +1,4 @@
+my-config:
+  my-env: dev-env
+  my-app: dev-app
+  my-list: dev1,dev2,dev3
